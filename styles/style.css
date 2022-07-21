@@ -259,7 +259,7 @@ footer {
 
 /* media quaire */
 
-/* mobile devises */
+/* mobile devises  */
 @media only screen and (max-width:688px) {
     .container {
         width: 100%;
@@ -400,71 +400,72 @@ footer {
         width: 220px;
         padding-left: 20px;
     }
+}
 
 
 
-    @media only screen and (min-width:688px) and (max-width:992px) {
+@media only screen and (min-width: 689px) and (max-width: 992px) {
 
-        .show,
-        .show-info {
-            display: block;
-            text-align: center;
-            padding-right: 0%;
-            margin-top: 0px;
-            margin-left: 0%;
-        }
+    .show,
+    .show-info {
+        display: block;
+        text-align: center;
+        padding-right: 0%;
+        margin-top: 0px;
+        margin-left: 0%;
+    }
 
-        .show {
-            display: block;
-            height: 90%;
-            width: 100%;
-            margin-left: 15px;
+    .show {
+        display: block;
+        height: 90%;
+        width: 100%;
+        margin-left: 15px;
 
-        }
+    }
 
-        .banner {
-            margin-right: 0;
+    .banner {
+        margin-right: 0;
 
-            height: 500px;
-            padding-left: 10px;
+        height: 500px;
+        padding-left: 10px;
 
-        }
+    }
 
 
 
 
-        .show-info {
-            padding-top: 40px;
+    .show-info {
+        padding-top: 40px;
 
-        }
+    }
 
-        .live-button {
-            font-size: 25px;
-            width: 150px;
-            height: 45px;
+    .live-button {
+        font-size: 25px;
+        width: 150px;
+        height: 45px;
 
-        }
+    }
 
-        .show-info p {
-            font-size: 30px;
-        }
+    .show-info p {
+        font-size: 30px;
+    }
 
-        h1 {
-            font-size: 45px;
-        }
+    h1 {
+        font-size: 45px;
+    }
 
-        .upcoming-match {
-            background-color: rgb(247, 244, 244);
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            font-size: 140px;
-            text-align: center;
-            margin-left: 45px;
+    .upcoming-match {
+        background-color: rgb(247, 244, 244);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 140px;
+        text-align: center;
+        margin-left: 45px;
 
-        }
+    }
 
-        .mor-info {
-            display: block;
+    .mor-info {
+        display: block;
 
 
 
@@ -472,104 +473,104 @@ footer {
 
 
 
-
-
-        }
-
-        .match-summire {
-            display: flex;
-            padding-bottom: 70px;
-
-            width: 700px;
-            padding-left: 15%;
-
-
-        }
-
-        .blogs {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            padding-left: 10px;
-
-
-
-
-
-        }
-
-
-
-        .blog {
-            padding-bottom: 20px;
-
-
-        }
-
-        .view-all {
-            display: none;
-            grid-template-columns: repeat(2, 1fr);
-            padding-left: 0%;
-
-        }
-
-
-
-        .view-more-blog {
-            display: block;
-            padding-left: 70px;
-            padding-top: 20px;
-        }
-
-        .view-more-blog2 {
-            display: none;
-        }
-
-
-
-        footer {
-            height: 600px;
-            width: 100%;
-            margin-left: 5%;
-            text-align: center;
-        }
-
-
-        .author-detail,
-        .all-match {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-
-
-
-        }
-
-        .app-live {
-            display: inline;
-            text-align: end;
-
-
-
-
-        }
-
-        .all-match {
-            margin-left: 10%;
-        }
-
-        .blog-image img {
-            width: 400px;
-            height: 260px;
-        }
-
-        .match {
-            padding-bottom: 20px;
-        }
-
-        .all-match {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 70px;
-        }
 
 
     }
+
+    .match-summire {
+        display: flex;
+        padding-bottom: 70px;
+
+        width: 700px;
+        padding-left: 15%;
+
+
+    }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 10px;
+
+
+
+
+
+    }
+
+
+
+    .blog {
+        padding-bottom: 20px;
+
+
+    }
+
+    .view-all {
+        display: none;
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 0%;
+
+    }
+
+
+
+    .view-more-blog {
+        display: block;
+        padding-left: 70px;
+        padding-top: 20px;
+    }
+
+    .view-more-blog2 {
+        display: none;
+    }
+
+
+
+    footer {
+        height: 600px;
+        width: 100%;
+        margin-left: 5%;
+        text-align: center;
+    }
+
+
+    .author-detail,
+    .all-match {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+
+
+    }
+
+    .app-live {
+        display: inline;
+        text-align: end;
+
+
+
+
+    }
+
+    .all-match {
+        margin-left: 10%;
+    }
+
+    .blog-image img {
+        width: 400px;
+        height: 260px;
+    }
+
+    .match {
+        padding-bottom: 20px;
+    }
+
+    .all-match {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 70px;
+    }
+
+
+}
