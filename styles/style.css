@@ -1,0 +1,480 @@
+/* ----------font style  --------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+/* ------common style ----- */
+
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #FFFFFF;
+}
+
+
+
+main {
+    border: 1px solid none;
+    margin-right: 5%;
+    margin-left: 8%;
+    justify-content: center;
+    margin-bottom: 10%;
+    margin-top: 8%
+}
+
+/* ------------live box style ------------- */
+.show {
+    display: flex;
+    background-color: rgb(77, 72, 72);
+    border-radius: 10px;
+    padding-bottom: 10px;
+    height: 500px;
+
+    justify-content: center;
+
+
+}
+
+.show-info {
+
+    text-align: start;
+    margin-top: 10px;
+    margin-left: 8%;
+    color: #FFFFFF;
+    font-size: 24px;
+    padding-right: 20%;
+
+    height: 495px;
+
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.show-info p {
+    font-size: 20px;
+}
+
+.banner {
+    margin-right: 10%;
+}
+
+
+.banner img {
+    width: 300px;
+    height: 495px;
+
+
+    padding-top: 15px;
+}
+
+.live-button {
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    width: 140px;
+    height: 45px;
+    font-size: 20px;
+}
+
+/* click box style */
+.mor-info {
+    display: flex;
+    gap: 20px;
+}
+
+.match-summire {
+    width: 245px;
+    height: 200px;
+    border-radius: 5px;
+
+}
+
+.upcoming-match {
+    background-color: rgb(77, 72, 72);
+    display: grid;
+    grid-template-rows: 1, 1fr;
+    border: 1px solid none;
+    border-radius: 5px;
+    text-align: center;
+    gap: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.summire-button,
+.fixed-button {
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+    height: 50px;
+}
+
+.summire-button:hover {
+    background-color: red;
+
+}
+
+.fixed-button {
+    background-color: red;
+}
+
+/* match blogs style */
+.blogs-info {
+    display: flex;
+    gap: 20px;
+    color: lightslategrey;
+
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 10px;
+    width: 75%;
+    height: 100%;
+
+
+}
+
+.blog-image img {
+    width: 265px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.transfer {
+    padding-top: 10px;
+}
+
+.bloges-details {
+    font-size: 15px;
+}
+
+.view-more-blog {
+    text-align: center;
+    display: none;
+}
+
+.view-more-blog button {
+    color: #FFFFFF;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 150px;
+
+
+}
+
+
+/*---------- footer style ---------- */
+footer {
+    background-color: rgb(77, 72, 72);
+    color: #FFFFFF;
+
+    width: 100%;
+    height: 250px;
+    text-align: center;
+
+}
+
+.author {
+
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+
+
+
+
+.author-detail {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5px;
+    margin-right: 20%;
+    margin-left: 20%;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 30px;
+
+
+}
+
+/* -----------Upcoming match websit style --------- */
+
+.match {
+    display: flex;
+}
+
+.start-time {
+    margin-left: 40px;
+}
+
+.start-time p {
+    color: rgb(102, 103, 105);
+    font-size: 15px;
+}
+
+.all-match {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px;
+}
+
+.match img {
+    width: 110px;
+}
+
+/* media quaire */
+
+/* mobile devises */
+@media only screen and (max-width:688px) {
+    .container {
+        width: 100%;
+    }
+
+
+
+    .show,
+    .show-info {
+        display: block;
+        text-align: center;
+        padding-right: 0%;
+        margin-top: 0px;
+        margin-left: 0%;
+    }
+
+    .show,
+    .banne img {
+        display: block;
+        height: 80%;
+        width: 100%;
+
+    }
+
+    .banner {
+        margin-right: 0;
+
+        height: 500px;
+        padding-left: 10px;
+
+    }
+
+
+
+    .show-info {
+        padding-top: 40px;
+
+    }
+
+    .live-button {
+        font-size: 20px;
+        width: 150px;
+        height: 45px;
+
+    }
+
+    .show-info p {
+        font-size: 10px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .upcoming-match {
+        background-color: rgb(247, 244, 244);
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .mor-info {
+        display: block;
+
+
+
+
+
+
+    }
+
+    .match-summire {
+        padding-bottom: 70px;
+        padding-left: 25px;
+
+    }
+
+    .blogs {
+        display: block;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 10px;
+
+    }
+
+    .blog {
+        padding-bottom: 20px;
+    }
+
+    .view-more-blog {
+        display: none;
+    }
+
+    footer {
+        height: 600px;
+        width: 100%;
+    }
+
+
+    .author-detail,
+    .all-match {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+
+
+    }
+
+    .match img {
+        width: 80px;
+    }
+
+    .match {
+        padding-bottom: 20px;
+    }
+
+
+}
+
+/* *----------- Tablet devises------- @media only screen and (min-width:688px) and (max-width:992px) {
+    .container {
+        width: 100%;
+    }
+
+    .show,
+    .show-info {
+        display: block;
+        text-align: center;
+        padding-right: 0%;
+        margin-top: 0px;
+        margin-left: 0%;
+    }
+
+    .show {
+        display: block;
+        height: 80%;
+        width: 100%;
+
+    }
+
+
+
+    .banner {
+        margin-right: 0;
+
+        height: 500px;
+        padding-left: 10px;
+
+    }
+
+
+
+    .show-info {
+        padding-top: 40px;
+
+    }
+
+    .live-button {
+        font-size: 30px;
+        width: 240px;
+        height: 65px;
+
+    }
+
+    .show-info p {
+        font-size: 25px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .upcoming-match {
+        background-color: rgb(247, 244, 244);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 55px;
+        text-align: center;
+
+    }
+
+    .mor-info {
+        display: block;
+
+
+    }
+
+
+}
+
+
+
+.match-summire {
+
+    width: 745px;
+    height: 200px;
+
+
+}
+
+
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+
+}
+
+.blog-image img {
+    width: 382px;
+    height: 160px;
+    border-radius: 5px;
+}
+
+.blog {
+    padding-bottom: 20px;
+
+}
+
+footer {
+    height: 350px;
+}
+
+
+.author-detail,
+.all-match {
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+
+    padding: 20px;
+
+
+}
+
+.match img {
+    width: 80px;
+}
+
+.match {
+    padding-bottom: 20px;
+}
+} */
